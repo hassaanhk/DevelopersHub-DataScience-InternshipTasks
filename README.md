@@ -22,3 +22,21 @@ Data Science internship tasks involving EDA, Credit Risk Prediction and Customer
 **Results:** - **Logistic Regression:** ~78.86% Accuracy (Best performing).
 - **Decision Tree:** ~74.80% Accuracy.
 - **Key Insight:** Credit History is the most significant predictor of loan approval.
+
+**Task 3:** Customer Churn Prediction
+
+**Objective:** To develop a complete machine learning pipeline—from raw data preprocessing and categorical encoding to model training and feature importance analysis.
+
+**Approach:**
+Preprocessing: Used Label Encoding for Gender and One-Hot Encoding for Geography to make text data machine-readable.
+
+Scaling: Applied StandardScaler to ensure features like "Age" and "Salary" are treated with equal weight.
+
+Modeling: Deployed a Random Forest Classifier (100 trees) to capture complex, non-linear patterns.
+
+**Insights:**
+Performance: Achieved approximately 86% accuracy in predicting customer behavior.
+
+Top Predictor: Age was the most significant factor, followed by Estimated Salary and Credit Score.
+
+Conclusion: The bank should prioritize retention programs for older customers with high balances, as geography and credit card ownership showed minimal impact on the decision to leave.
