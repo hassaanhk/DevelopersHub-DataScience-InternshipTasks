@@ -40,3 +40,19 @@ Performance: Achieved approximately 86% accuracy in predicting customer behavior
 Top Predictor: Age was the most significant factor, followed by Estimated Salary and Credit Score.
 
 Conclusion: The bank should prioritize retention programs for older customers with high balances, as geography and credit card ownership showed minimal impact on the decision to leave.
+
+**Task 4:** Bank Term Deposit Prediction
+**Objective:** Predict whether a customer will subscribe to a term deposit based on marketing campaign data.
+**Approach:** Performed One-Hot Encoding on categorical features (job, marital status, etc.) to convert text into a machine-readable format.
+
+Balanced the dataset using stratification to handle the class imbalance between "yes" and "no" responses.
+
+Utilized Random Forest to capture complex, non-linear relationships in the customer data.
+
+Implemented SHAP (Explainable AI) to interpret individual model predictions and ensure transparency.
+**Results:** Random Forest: ~84.40% Accuracy.
+
+ROC-AUC Score: 0.91 (Excellent discriminatory power).
+Key Insight: The duration of the last contact and previous successful marketing outcomes (poutcome) are the strongest indicators of a customer subscribing.
+
+
